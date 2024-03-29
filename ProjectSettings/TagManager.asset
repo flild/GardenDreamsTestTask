@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - ship
+  - asteroid
   layers:
   - Default
   - TransparentFX
@@ -11,9 +13,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - PlayerBullets
+  - Enemy
+  - Player
   - 
   - 
   - 
@@ -38,6 +40,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Ground
+    uniqueID: 3900381435
+    locked: 0
+  - name: Decoration
+    uniqueID: 1009202729
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Barier
+    uniqueID: 1104107253
+    locked: 0
+  - name: PlayerToolView
+    uniqueID: 157536197
     locked: 0

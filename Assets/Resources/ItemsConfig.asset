@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 621fc3899c97e5743a87f098bbab0b1b, type: 3}
+  m_Name: ItemsConfig
+  m_EditorClassIdentifier: 
+  _items:
+  - ItemId: Bullets
+    MaxStackCount: 500
+    sprite: {fileID: 21300000, guid: d45f0cae013abb84688afe6e4bc52845, type: 3}
+  - ItemId: Plank
+    MaxStackCount: 64
+    sprite: {fileID: -612478690, guid: 1ac5d4b940c607640910a1edca7601ed, type: 3}
+  - ItemId: Bottle
+    MaxStackCount: 64
+    sprite: {fileID: -689707185, guid: 1ac5d4b940c607640910a1edca7601ed, type: 3}
+  - ItemId: Steak
+    MaxStackCount: 4
+    sprite: {fileID: -1102868916, guid: 1ac5d4b940c607640910a1edca7601ed, type: 3}
+  - ItemId: Battery
+    MaxStackCount: 64
+    sprite: {fileID: -634881992, guid: 1ac5d4b940c607640910a1edca7601ed, type: 3}
+  - ItemId: Fuel
+    MaxStackCount: 10
+    sprite: {fileID: -2007495637, guid: 1ac5d4b940c607640910a1edca7601ed, type: 3}
