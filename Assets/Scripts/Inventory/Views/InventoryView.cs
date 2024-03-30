@@ -90,7 +90,7 @@ namespace PocketZone.Inventory
             //var worldPosition = Camera.main.ScreenToWorldPoint(position);
             //worldPosition = new Vector2(worldPosition.x, worldPosition.y);
             var distanceToButton = Vector2.Distance(position, _slotForDelete.transform.position);
-            if (distanceToButton > 20)
+            if (distanceToButton > 40)
             {
                 DeleteCurrentButton();
             }

@@ -15,4 +15,4 @@ MonoBehaviour:
   playerData:
     Health: 100
     MaxHealth: 100
-    MoveSpeed: 20
+    MoveSpeed: 2

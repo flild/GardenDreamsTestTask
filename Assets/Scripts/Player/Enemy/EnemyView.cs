@@ -42,9 +42,10 @@ namespace PocketZone.Enemy
             for(int i = 0; i < dropItemCount; i++)
             {
                 var item = Instantiate(_PickableItemPrefab, transform.position, Quaternion.identity);
+                var ranndomPosition = transform.position + new Vector3(Random.Range(-1, 1), Random.Range(-1, 1));
                 item.transform.DOMove(
-                    new Vector2(Random.Range(-1,1),Random.Range(-1,1))
-                    ,1f).SetLink(item.gameObject);
+                    ranndomPosition
+                    , 1f).SetLink(item.gameObject);
             }
 
             Destroy(gameObject, 0.1f);

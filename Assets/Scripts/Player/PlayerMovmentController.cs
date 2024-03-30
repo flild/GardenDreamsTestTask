@@ -12,7 +12,7 @@ namespace PocketZone.Player
         private float _speed;
 
         private Rigidbody2D _rb;
-        public PlayerMovmentController(PlayerView playerView, float speed = 20)
+        public PlayerMovmentController(PlayerView playerView, float speed)
         {
             _playerView = playerView;
             _speed = speed;
@@ -31,7 +31,7 @@ namespace PocketZone.Player
         {
             var _calcDirection = diriction.x*Vector2.right+ diriction.y*Vector2.up;
             _playerView.MoveAnimation(_calcDirection);
-            _rb.velocity = _calcDirection;
+            _rb.velocity = _calcDirection*_speed;
         }
     }
 }
