@@ -107,7 +107,6 @@ namespace PocketZone.Player.Gun
         {
             _gunView._EnemyEnterInShootZone -= OnEnemyEnterInShootZone;
             _gunView._EnemyLeaveShootZone -= OnEnemyLeaveShootZone;
-            _input.ShootEvent -= OnShoot;
             //shat-gpt
             if (_closestEnemyCalculationTask != null && _closestEnemyCalculationTask.IsCompleted)
             {
